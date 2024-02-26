@@ -1,0 +1,33 @@
+### 전체 조회
+GET http://localhost:3000/movies
+Accept: application/json
+
+
+### id 조회
+GET http://localhost:3000/movies/1
+Accept: application/json
+
+
+### create
+POST http://localhost:3000/movies
+Accept: application/json
+
+{
+  "title": "감자의 일상",
+  "year": 2000,
+  "genres": ["오늘","하루도"]
+}
+
+
+### delete
+DELETE http://localhost:3000/1
+Accept: application/json
+
+
+### update
+PUT http://localhost:3000/1
+Accept: application/json
+
+{
+"title":"감자의 여행"
+}
